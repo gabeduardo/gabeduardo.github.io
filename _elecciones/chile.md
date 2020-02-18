@@ -43,7 +43,7 @@ var myChart = new Chart(ctx, {
             display: true,
             labels: {
                 fontColor: 'black',
-                padding	: 86
+                padding	: 80
             }
         },
 
@@ -57,7 +57,7 @@ var myChart = new Chart(ctx, {
                     };
                 },
                 labelTextColor: function(tooltipItem, chart) {
-                    return 'black';
+                    return 'white';
                 }
             }
         }

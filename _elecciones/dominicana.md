@@ -58,7 +58,7 @@ var myChart = new Chart(ctx, {
                     };
                 },
                 labelTextColor: function(tooltipItem, chart) {
-                    return 'black';
+                    return 'white';
                 }
             }
         }
