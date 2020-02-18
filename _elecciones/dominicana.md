@@ -1,11 +1,19 @@
 ---
 title: Elecciones República Dominicana 2020
 havechart: true
+meta: Los comicios en República Dominicana serán generales y están convocados para el 17 de mayo. Quien resulte electo será el sucesor de Danilo Medina (...)
 ---
 
+![bandera-dominicana](/images/dominicana.jpg)
+
+<p>
 Los comicios en República Dominicana serán generales y están convocados para el 17 de mayo. Quien resulte electo será el sucesor de Danilo Medina, que gobierna el país desde 2012.
 
 En las elecciones primarias partidarias de octubre pasado se eligieron a dos candidatos; sin embargo, el número de aspirantes es más amplio.
+
+</p>
+
+[Fuente de datos utilizada ](https://www.telemundo47.com/historias-destacadas/estudio-jovenes-definirian-comicios-dominicanos-en-2020/166500/)
 
 <div style=" max-width: 350px;">
 <canvas id="myChart" width="100" height="100"></canvas>

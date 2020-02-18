@@ -17,7 +17,9 @@ layout: default
     <h3>
       <a href="{{eleccion.url}}"> {{eleccion.title }} </a>
     </h3>
-    <p>{{eleccion.content | mardownify }}</p>
+    <p>{{eleccion.meta | mardownify }}</p>
+
+    <a href="{{ site.baseurl }}{{ eleccion.url }}">Ver más</a>
   </li>
   {% endfor %}
 </ul>
