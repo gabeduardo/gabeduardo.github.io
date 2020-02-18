@@ -1,2 +1,10 @@
 collections:
   elecciones:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: "elecciones"
+    values:
+      layout: "eleccion"

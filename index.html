@@ -3,4 +3,21 @@ title: Elecciones latinoamérica 2020
 layout: default
 ---
 
-<h1>Hello World!</h1>
+<h1>Elecciones Latinoamérica 2020</h1>
+
+<a
+  href="https://actualidad.rt.com/actualidad/337693-elecciones-america-latina-2020-previstas-sorpresivas"
+  >Fuente utilizada: actualidad.rt
+</a>
+
+<ul>
+  {% for eleccion in site.elecciones%}
+
+  <li>
+    <h3>
+      <a href="{{eleccion.url}}"> {{eleccion.title }} </a>
+    </h3>
+    <p>{{eleccion.content | mardownify}}</p>
+  </li>
+  {% endfor %}
+</ul>
