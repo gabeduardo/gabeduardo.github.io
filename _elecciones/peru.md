@@ -42,7 +42,7 @@ var myChart = new Chart(ctx, {
             display: true,
             labels: {
                 fontColor: 'black',
-                padding	: 80
+               
             }
         },
 
